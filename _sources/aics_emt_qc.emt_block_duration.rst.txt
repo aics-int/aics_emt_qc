@@ -1,0 +1,29 @@
+aics\_emt\_qc.emt\_block\_duration package
+==========================================
+
+Submodules
+----------
+
+aics\_emt\_qc.emt\_block\_duration.emt\_block\_duration module
+--------------------------------------------------------------
+
+.. automodule:: aics_emt_qc.emt_block_duration.emt_block_duration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+aics\_emt\_qc.emt\_block\_duration.pipeline\_tools module
+---------------------------------------------------------
+
+.. automodule:: aics_emt_qc.emt_block_duration.pipeline_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: aics_emt_qc.emt_block_duration
+   :members:
+   :undoc-members:
+   :show-inheritance:

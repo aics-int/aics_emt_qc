@@ -1,0 +1,20 @@
+aics\_emt\_qc package
+=====================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   aics_emt_qc.alignment_tools
+   aics_emt_qc.bin
+   aics_emt_qc.emt_block_duration
+
+Module contents
+---------------
+
+.. automodule:: aics_emt_qc
+   :members:
+   :undoc-members:
+   :show-inheritance:

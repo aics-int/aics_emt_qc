@@ -1,0 +1,29 @@
+aics\_emt\_qc.bin package
+=========================
+
+Submodules
+----------
+
+aics\_emt\_qc.bin.emt\_block\_duration\_cli module
+--------------------------------------------------
+
+.. automodule:: aics_emt_qc.bin.emt_block_duration_cli
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+aics\_emt\_qc.bin.my\_example module
+------------------------------------
+
+.. automodule:: aics_emt_qc.bin.my_example
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: aics_emt_qc.bin
+   :members:
+   :undoc-members:
+   :show-inheritance:
