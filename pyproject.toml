@@ -12,5 +12,5 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = "-v"
 testpaths = [
-    "aics-emt-qc/tests",
+    "aics_emt_qc/tests",
 ]

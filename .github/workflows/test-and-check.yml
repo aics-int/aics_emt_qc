@@ -31,7 +31,7 @@ jobs:
         pip install .[dev]
     - name: Test with pytest
       run: |
-        python -m pytest aics-emt-qc/tests/
+        python -m pytest aics_emt_qc/tests/
 
   check:
     runs-on: ubuntu-latest
@@ -48,13 +48,13 @@ jobs:
         pip install .[dev]
     - name: Type check
       run: |
-        python -m mypy --ignore-missing-imports aics-emt-qc
+        python -m mypy --ignore-missing-imports aics_emt_qc
     - name: Lint
       run: |
-        python -m flake8 aics-emt-qc --count --verbose --show-source --statistics
+        python -m flake8 aics_emt_qc --count --verbose --show-source --statistics
     - name: Check for code format compatibility
       run: |
-        python -m black --check aics-emt-qc
+        python -m black --check aics_emt_qc
     - name: Check for proper import sort order
       run: |
-        python -m isort --check --diff aics-emt-qc
+        python -m isort --check --diff aics_emt_qc

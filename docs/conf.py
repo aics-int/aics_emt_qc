@@ -6,7 +6,7 @@
 import os
 import sys
 
-import aics-emt-qc
+import aics_emt_qc
 
 # -- Path setup --------------------------------------------------------------
 
@@ -17,11 +17,11 @@ sys.path.insert(0, os.path.abspath(".."))
 
 
 # -- Project information -----------------------------------------------------
-project = "aics-emt-qc"
+project = "aics_emt_qc"
 copyright = "2021, AICS"
 author = "AICS"
-version = aics-emt-qc.__version__
-release = aics-emt-qc.__version__
+version = aics_emt_qc.__version__
+release = aics_emt_qc.__version__
 
 
 # -- General configuration ---------------------------------------------------
@@ -51,5 +51,7 @@ html_theme = "furo"
 
 
 # -- Extensions ----------------------------------------------------------------
-napoleon_numpy_docstring = True  # https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
+napoleon_numpy_docstring = (
+    True  # https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard
+)
 napoleon_google_docstring = False

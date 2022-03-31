@@ -8,30 +8,25 @@ requirements = [
     "aicsimageio ~= 4.4",
     "aicspylibczi ~= 3.0.0",
     "numpy ~= 1.21",
-    "scikit-image ~= 0.18"
+    "scikit-image ~= 0.18",
 ]
 
 dev_requirements = [
     # Test
-    "black == 21.7b0",
+    "black == 22.1.0",
     "flake8 ~= 4.0.1",
     "isort ~= 5.10.1",
     "mypy ~= 0.910",
     "pytest ~= 6.2.5",
     "pytest-raises ~= 0.11",
-
     # Dev workflow
     "pre-commit ~= 2.17.0",
-
     # Build
     "build == 0.7.0",
-
     # Version
     "bump2version ~= 1.0.1",
-
     # Publish
     "twine ~= 3.7.1",
-
     # Documentation generation
     "Sphinx ~= 4.4.0",
     "furo == 2022.1.2",  # Third-party theme (https://pradyunsg.me/furo/quickstart/)

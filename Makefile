@@ -29,23 +29,23 @@ install: venv requirements.txt setup.py
 > $(VENV_BIN)/pre-commit install
 
 lint:
-> $(PYTHON) -m flake8 --count --show-source --statistics aics-emt-qc
+> $(PYTHON) -m flake8 --count --show-source --statistics aics_emt_qc
 .PHONY: lint
 
 type-check:
-> $(PYTHON) -m mypy --ignore-missing-imports aics-emt-qc
+> $(PYTHON) -m mypy --ignore-missing-imports aics_emt_qc
 .PHONY: type-check
 
 fmt:
-> $(PYTHON) -m black aics-emt-qc
+> $(PYTHON) -m black aics_emt_qc
 .PHONY: fmt
 
 import-sort:
-> $(PYTHON) -m isort aics-emt-qc
+> $(PYTHON) -m isort aics_emt_qc
 .PHONY: import-sort
 
 test:
-> $(PYTHON) -m pytest aics-emt-qc/tests/
+> $(PYTHON) -m pytest aics_emt_qc/tests/
 .PHONY: test
 
 test-exclude-slow:
@@ -57,7 +57,7 @@ clean:  # Clear proj dir of all .gitignored files
 .PHONY: clean
 
 docs:
-> source $(ACTIVATE) && sphinx-apidoc -f -o docs aics-emt-qc aics-emt-qc/tests
+> source $(ACTIVATE) && sphinx-apidoc -f -o docs aics_emt_qc aics_emt_qc/tests
 > source $(ACTIVATE) && sphinx-build -b html docs docs/build
 .PHONY: docs
 

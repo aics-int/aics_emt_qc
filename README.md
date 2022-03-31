@@ -1,4 +1,4 @@
-# aics-emt-qc
+# aics_emt_qc
 
 [![Build Status](https://github.com/BrianWhitneyAI/aics_emt_qc/workflows/Build%20Main/badge.svg)](https://github.com/BrianWhitneyAI/aics_emt_qc/actions)
 [![Documentation](https://github.com/BrianWhitneyAI/aics_emt_qc/workflows/Documentation/badge.svg)](https://BrianWhitneyAI.github.io/aics_emt_qc/)
