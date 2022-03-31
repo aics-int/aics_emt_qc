@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""The setup script."""
 from setuptools import find_packages, setup
 
 requirements = [
@@ -52,7 +56,7 @@ setup(
     extras_require=extra_requirements,
     entry_points={
         "console_scripts": [
-            "my_example=aics_emt_qc.bin.my_example:main"
+            "emt_block_duration=emt_qc.bin.emt_block_duration:main",
         ],
     },
     license="Allen Institute Software License",
